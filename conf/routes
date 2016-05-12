@@ -1,0 +1,56 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# An example controller showing a sample home page
+GET      /                                     controllers.LoginController.loginPage
+POST     /login                                controllers.LoginController.validateLogin
+
+GET      /register                                     controllers.LoginController.regPage
+POST     /saveregister                                controllers.LoginController.saveRegForm
+GET      /getregdata                                     controllers.LoginController.getRegistrationData
+
+
+
+GET      /forgot                                     controllers.LoginController.forgotPassword
+POST     /savepassword                                controllers.LoginController.savePassword
+GET      /thank                                      controllers.LoginController.thankYouPage
+
+
+
+# An example controller showing how to write asynchronous code
+GET     /employer                           controllers.EmployerController.getInfoEmployer
+POST     /saveemplr                                controllers.EmployerController.saveInfoEmployer
+GET     /updateemplr                           controllers.EmployerController.updateEmplrData(emId: String)
+POST     /updemplr                                controllers.EmployerController.updateInfoEmployer
+GET     /deleteemplr                           controllers.EmployerController.deleteEmplrData(emId: String)
+GET     /addemplr                           controllers.EmployerController.addEmplrData
+
+
+
+
+
+# An example controller showing how to write asynchronous code
+GET     /employee                           controllers.EmployeeController.getEmployeeInfo
+
+
+
+
+# An example controller showing how to use dependency injection
+GET     /attorney                           controllers.AttorneyController.index
+
+
+
+# An example controller showing how to write asynchronous code
+GET     /message                           controllers.MessageController.index
+
+
+
+
+
+
+
+
+
+# Map static resources from the /public folder to the /assets URL path
+GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)

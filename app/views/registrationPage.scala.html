@@ -1,0 +1,22 @@
+@(reg: Form[models.RegistrationForm])(implicit messages: Messages)
+
+@import helper._
+
+@main("Welcome to Play") {
+        @form(routes.LoginController.saveRegForm()) {
+                @inputText(reg("firstName"))
+                @inputText(reg("lastName"))
+                @inputText(reg("userId"))
+                @inputText(reg("password"))
+                @inputText(reg("emailId"))
+                @inputText(reg("organisation"))
+                @inputText(reg("userType"))
+
+
+                <div class="buttons">
+                    <input type="submit" value="Register"/>
+                </div>
+        }
+
+}
+

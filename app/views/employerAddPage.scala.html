@@ -1,0 +1,20 @@
+@(emplr: Form[models.EmployerForm])(implicit messages: Messages)
+
+@import helper._
+
+@main("Welcome to Play") {
+        @form(routes.EmployerController.saveInfoEmployer()) {
+                @inputText(emplr("fname"))
+                @inputText(emplr("lname"))
+                @inputText(emplr("organization"))
+                @inputText(emplr("visaType"))
+                @inputText(emplr("initiation"))
+                @inputText(emplr("emailId"))
+
+                <div class="buttons">
+                    <input type="submit" value="Add"/>
+                </div>
+        }
+
+}
+

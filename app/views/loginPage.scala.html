@@ -1,0 +1,19 @@
+@(lg: Form[models.Login])(implicit messages: Messages)
+
+@import helper._
+
+
+@main("Welcome to Play") {
+        @form(routes.LoginController.validateLogin()) {
+                @inputText(lg("emailId"))
+                @inputText(lg("password"))
+
+                <div class="buttons">
+                    <input type="submit" value="Login"/>
+                    <a href="@routes.LoginController.regPage()" >Register</a>
+                    <a href="@routes.LoginController.forgotPassword()" >forgot password</a>
+                </div>
+        }
+
+}
+

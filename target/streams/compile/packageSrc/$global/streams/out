@@ -1,0 +1,35 @@
+[0m[[0minfo[0m] [0mPackaging /home/srikar/scala-projects/ImmigrationApplication/target/scala-2.11/immigrationapplication_2.11-0.0.1-sources.jar ...[0m
+[0m[[0mdebug[0m] [0mInput file mappings:[0m
+[0m[[0mdebug[0m] [0m	controllers/EmployerController.scala[0m
+[0m[[0mdebug[0m] [0m	  /home/srikar/scala-projects/ImmigrationApplication/app/controllers/EmployerController.scala[0m
+[0m[[0mdebug[0m] [0m	controllers/AttorneyController.scala[0m
+[0m[[0mdebug[0m] [0m	  /home/srikar/scala-projects/ImmigrationApplication/app/controllers/AttorneyController.scala[0m
+[0m[[0mdebug[0m] [0m	evolutions/default[0m
+[0m[[0mdebug[0m] [0m	  /home/srikar/scala-projects/ImmigrationApplication/conf/evolutions/default[0m
+[0m[[0mdebug[0m] [0m	routes[0m
+[0m[[0mdebug[0m] [0m	  /home/srikar/scala-projects/ImmigrationApplication/conf/routes[0m
+[0m[[0mdebug[0m] [0m	models/Login.scala[0m
+[0m[[0mdebug[0m] [0m	  /home/srikar/scala-projects/ImmigrationApplication/app/models/Login.scala[0m
+[0m[[0mdebug[0m] [0m	logback.xml[0m
+[0m[[0mdebug[0m] [0m	  /home/srikar/scala-projects/ImmigrationApplication/conf/logback.xml[0m
+[0m[[0mdebug[0m] [0m	controllers/MessageController.scala[0m
+[0m[[0mdebug[0m] [0m	  /home/srikar/scala-projects/ImmigrationApplication/app/controllers/MessageController.scala[0m
+[0m[[0mdebug[0m] [0m	daos/RegistrationRepository.scala[0m
+[0m[[0mdebug[0m] [0m	  /home/srikar/scala-projects/ImmigrationApplication/app/daos/RegistrationRepository.scala[0m
+[0m[[0mdebug[0m] [0m	models/Registration.scala[0m
+[0m[[0mdebug[0m] [0m	  /home/srikar/scala-projects/ImmigrationApplication/app/models/Registration.scala[0m
+[0m[[0mdebug[0m] [0m	application.conf[0m
+[0m[[0mdebug[0m] [0m	  /home/srikar/scala-projects/ImmigrationApplication/conf/application.conf[0m
+[0m[[0mdebug[0m] [0m	models/LoginPassword.scala[0m
+[0m[[0mdebug[0m] [0m	  /home/srikar/scala-projects/ImmigrationApplication/app/models/LoginPassword.scala[0m
+[0m[[0mdebug[0m] [0m	controllers/LoginController.scala[0m
+[0m[[0mdebug[0m] [0m	  /home/srikar/scala-projects/ImmigrationApplication/app/controllers/LoginController.scala[0m
+[0m[[0mdebug[0m] [0m	evolutions[0m
+[0m[[0mdebug[0m] [0m	  /home/srikar/scala-projects/ImmigrationApplication/conf/evolutions[0m
+[0m[[0mdebug[0m] [0m	models/EmployerForm.scala[0m
+[0m[[0mdebug[0m] [0m	  /home/srikar/scala-projects/ImmigrationApplication/app/models/EmployerForm.scala[0m
+[0m[[0mdebug[0m] [0m	controllers/EmployeeController.scala[0m
+[0m[[0mdebug[0m] [0m	  /home/srikar/scala-projects/ImmigrationApplication/app/controllers/EmployeeController.scala[0m
+[0m[[0mdebug[0m] [0m	daos/EmployerRepository.scala[0m
+[0m[[0mdebug[0m] [0m	  /home/srikar/scala-projects/ImmigrationApplication/app/daos/EmployerRepository.scala[0m
+[0m[[0minfo[0m] [0mDone packaging.[0m

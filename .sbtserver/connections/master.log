@@ -1,0 +1,16 @@
+New log file opened at Thu May 12 14:15:13 EDT 2016 by 2786@srikar-sri
+Taking next connection to: 51679
+New client attempting to connect on port: 55328-51679
+  Address = /127.0.1.1:51679
+This client on port 55328 has uuid c49463eb-9eae-4fdc-b784-ae8775844d8d configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: play-fork-run-c49463eb-9eae-4fdc-b784-ae8775844d8d
+Taking next connection to: 51679
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 51679
+Checking to see if clients are empty...
+No non-daemon clients connected after 3 min. Shutting down.
+Server socket thread exiting.
+0 clients open, will close them...
+All client sockets have been closed.
+Closing the 2786@srikar-sri logs at Thu May 12 14:21:14 EDT 2016, goodbye.

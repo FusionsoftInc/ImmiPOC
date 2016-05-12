@@ -1,0 +1,40 @@
+@(emplr: List[models.EmployerForm])(implicit request: RequestHeader)
+
+@import controllers.routes
+
+@main("Show forms and New Form") {
+
+        <table class="table table-bordered table-hover" style="width: 500px">
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Organization</th>
+                <th>Visa Type</th>
+                <th>Initiation</th>
+                <th>Email Id</th>
+            </tr>
+
+            <tbody>
+            @for(elist <- emplr ) {
+
+                <tr>
+                    <td>@elist.fname</td>
+                    <td>@elist.lname</td>
+                    <td>@elist.organization</td>
+                    <td>@elist.visaType</td>
+                    <td>@elist.initiation</td>
+                    <td>@elist.emailId</td>
+
+                    <td><a href="http://localhost:9000/updateemplr?emId=@elist.emailId">Update</a></td>
+                    <td><a href="http://localhost:9000/deleteemplr?emId=@elist.emailId" >Delete</a></td>
+                </tr>
+            }
+            </tbody>
+        </table>
+
+        <div>
+            <a href="@routes.EmployerController.addEmplrData()" >Add</a>
+
+        </div>
+
+}

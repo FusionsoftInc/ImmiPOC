@@ -1,0 +1,6 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(/home/srikar/scala-projects/ImmiPOC/conf/routes,/home/srikar/scala-projects/ImmiPOC/target/scala-2.11/classes/routes)[0m
+[0m[[0mdebug[0m] [0m	(/home/srikar/scala-projects/ImmiPOC/conf/evolutions,/home/srikar/scala-projects/ImmiPOC/target/scala-2.11/classes/evolutions)[0m
+[0m[[0mdebug[0m] [0m	(/home/srikar/scala-projects/ImmiPOC/conf/logback.xml,/home/srikar/scala-projects/ImmiPOC/target/scala-2.11/classes/logback.xml)[0m
+[0m[[0mdebug[0m] [0m	(/home/srikar/scala-projects/ImmiPOC/conf/application.conf,/home/srikar/scala-projects/ImmiPOC/target/scala-2.11/classes/application.conf)[0m
+[0m[[0mdebug[0m] [0m	(/home/srikar/scala-projects/ImmiPOC/conf/evolutions/default,/home/srikar/scala-projects/ImmiPOC/target/scala-2.11/classes/evolutions/default)[0m

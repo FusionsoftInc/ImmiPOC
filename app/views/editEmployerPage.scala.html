@@ -1,0 +1,23 @@
+@(emplr: Form[models.EmployerForm])(implicit messages: Messages)
+@import helper._
+
+@main("Modify Existing Thing") {
+
+        @form(routes.EmployerController.updateInfoEmployer()) {
+            @inputText(emplr("fname"))
+            @inputText(emplr("lname"))
+            @inputText(emplr("organization"))
+            @inputText(emplr("visaType"))
+            @inputText(emplr("initiation"))
+            @inputText(emplr("emailId"))
+
+            <div class="buttons">
+                <input type="submit" value="Save"/>
+            </div>
+        }
+}
+
+
+
+
+

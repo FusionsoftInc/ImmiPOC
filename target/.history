@@ -1,0 +1,6 @@
+~update
+git init
+dist
+git init
+git status
+sbt

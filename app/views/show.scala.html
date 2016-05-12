@@ -1,0 +1,23 @@
+@(lg: Seq[String])(implicit request: RequestHeader)
+
+@import controllers.routes
+
+@main("Show forms and New Form") {
+
+        <table class="table table-bordered table-hover" style="width: 500px">
+            <tr>
+                <th>Emp Id</th>
+            </tr>
+            <tbody>
+
+
+            @for(lglist <- lg) {
+            <tr>
+                <td>@lglist</td>
+            </tr>
+            }
+            </tbody>
+        </table>
+
+}
+
